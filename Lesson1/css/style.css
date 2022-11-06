@@ -1,0 +1,41 @@
+.headline {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 0, 0);
+}
+
+#matej {
+    color: green;
+    position: relative;
+}
+
+.bild {
+    width: 40%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.top {
+    color: yellow;
+    border: 3px solid black;
+    margin: 50px 0;
+    padding: 100px;
+}
+
+.middle {
+    font-size: small;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+    border: 3px solid black;
+    position: absolute;
+    top: 20px;
+    padding: 20px;
+}
+
+#hansbunte {
+    font-style: italic;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
