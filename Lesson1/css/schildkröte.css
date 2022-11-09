@@ -14,18 +14,10 @@ text-align: center;
     order: 5;
 }
 
-.topleft {
-    border: 1px solid;
+.tabel2 {
+    width: 45%;
 }
 
-.topright {
-    border: 1px solid;
-}
-
-.picture{
-
-}
-
-.bild{
-    width: 200px;
+.picture {
+    width: 45%;
 }
