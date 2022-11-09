@@ -15,18 +15,25 @@ text-align: center;
     justify-content: space-around;
 }
 
+.tabel1 {
+    width: 45%;
+}
+
+
 .table {
     width: 100%;
+    padding: 8px;
 }
 .tabel2 {
     width: 60%;
 }
 
 .picture {
-    width: 30%;
-    justify-content: space-around;
+    width: 45%;
+
 }
 
 .bild {
-    width: 100%;
+    width: 50%;
+    
 }
