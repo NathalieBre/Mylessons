@@ -12,12 +12,18 @@ text-align: center;
     flex-direction: row;
     display: flex;
     order: 5;
+    justify-content: space-around;
 }
 
 .tabel2 {
-    width: 45%;
+    width: 60%;
+}
+
+.picture {
+    width: 30%;
+    justify-content: space-around;
 }
 
 .bild {
-    width: 45%;
+    width: 100%;
 }
