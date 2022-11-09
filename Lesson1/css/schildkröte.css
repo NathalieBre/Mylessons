@@ -17,6 +17,8 @@ text-align: center;
 
 .tabel1 {
     width: 45%;
+    display: flex;
+    justify-content: space-around;
 }
 
 table {
@@ -26,7 +28,7 @@ table {
 
 td {
     border: 1px solid #dddddd; 
-    text-align: left;
+    text-align: justify;
     padding: 8px;
 }
 
