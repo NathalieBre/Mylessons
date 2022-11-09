@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container1 {
+color: aquamarine;
+font-size:x-large;
+text-align: center;
+}
+
+.container2 {
+    font-size:smaller;
+    flex-direction: row;
+    display: flex;
+    order: 5;
+}
+
+.topleft {
+    border: 1px solid;
+}
+
+.topright {
+    border: 1px solid;
+}
+
+.picture{
+
+}
+
+.bild{
+    width: 200px;
+}
