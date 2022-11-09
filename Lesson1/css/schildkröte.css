@@ -21,6 +21,7 @@ margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
     margin-left: 100px;
+    align-items: center;
 }
 
 table {
