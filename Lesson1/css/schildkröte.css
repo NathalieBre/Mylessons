@@ -15,6 +15,9 @@ text-align: center;
     justify-content: space-around;
 }
 
+.table {
+    width: 100%;
+}
 .tabel2 {
     width: 60%;
 }
