@@ -19,21 +19,31 @@ text-align: center;
     width: 45%;
 }
 
-
-.table {
+table {
     width: 100%;
+    border-collapse: collapse;
+    width: 100%;  
+}
+
+th {
+    border: 1px solid #dddddd; 
+    text-align: left;
     padding: 8px;
+
 }
-.tabel2 {
-    width: 60%;
-}
+
+tr:nth-child(even) {
+    background-color: #ddeedd;
+  }
 
 .picture {
     width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
 
 }
 
 .bild {
     width: 50%;
-    
 }
