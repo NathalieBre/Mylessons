@@ -4,7 +4,7 @@ body {
     font-weight: 100;
 }
 
-marquee1 {
+marquee {
     margin-top: 2%;
     font-size: larger;
 }
@@ -115,7 +115,12 @@ tr:nth-child(even) {
 justify-content: center
 }
 
-marquee{
+.turtlewalk{
     height: 1250px;
     justify-content: center;
 }
+
+aside {
+    position: absolute;
+    left:0;
+    }
