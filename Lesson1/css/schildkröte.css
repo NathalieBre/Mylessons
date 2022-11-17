@@ -4,9 +4,9 @@ body {
     font-weight: 100;
 }
 
-title {
-    animation: infinite;
-    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+marquee1 {
+    margin-top: 2%;
+    font-size: larger;
 }
 
 h3{
@@ -39,7 +39,7 @@ margin-bottom: 50px;
     width: 55%;
     display: flex;
     justify-content: space-around;
-    margin-left: 250px;
+    margin-left: 8%;
     align-items: center;
 }
 
@@ -100,8 +100,22 @@ tr:nth-child(even) {
 .FunFacts {
     border: 5px dotted aquamarine;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 
+.all {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 
+.leftbox{
+
+justify-content: center
+}
+
+marquee{
+    height: 1250px;
+    justify-content: center;
+}
