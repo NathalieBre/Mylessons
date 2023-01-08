@@ -1,0 +1,54 @@
+
+h1{
+    margin-bottom: 10%;
+}
+
+img{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    animation-name: train;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.55, -0.64, .42, 1.63);
+}
+
+p{
+    margin-top: 7%;
+}
+
+.trainanimation{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    position: relative;
+}
+
+
+@keyframes train {
+    from, 5% {
+        left: 0px;
+    }
+    25% {
+        left: calc(33% - 40px);
+    }
+    40% {
+        animation-timing-function: steps(4);
+        left: calc(33% - 40px);
+    }
+    60%, 75% {
+        left: calc(66% - 40px);
+    }
+    95%, to {
+        left: calc(100% - 40px);
+    }
+}
+
+.xyz{
+    border-top: 2px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}

@@ -1,0 +1,41 @@
+.oben {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 25%;
+    margin-left: 40%;
+}
+
+img {
+    width: 35%;
+}
+
+.h1 {
+    text-align: center;
+}
+.Questions {
+    border: 1% solid black;
+}
+
+.wrong:hover {
+    background-color: brown;
+    size: 2%;
+}
+
+.right:hover {
+    background-color: green;
+}
+
+.question {
+    border-color: black;
+    border: 2%;
+    border-style: solid;
+    margin: 2%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+h2,
+li {
+    text-align: center;
+}
